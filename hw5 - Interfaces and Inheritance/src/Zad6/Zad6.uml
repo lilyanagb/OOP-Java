@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Zad6</OriginalElement>
+  <nodes>
+    <node x="150.49999999999997" y="624.0">Zad6.Test</node>
+    <node x="219.49999999999997" y="495.0">Zad6.B</node>
+    <node x="181.49999999999997" y="234.0">Zad6.A</node>
+    <node x="197.49999999999997" y="128.0">Zad6.Combination</node>
+    <node x="363.0" y="0.0">Zad6.ThirdInterace</node>
+    <node x="189.99999999999997" y="0.0">Zad6.FirstInterface</node>
+    <node x="0.0" y="0.0">Zad6.SecondInterface</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Zad6.A" target="Zad6.Combination" relationship="REALIZATION">
+      <point x="0.0" y="-105.5" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Zad6.B" target="Zad6.A" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="0.0" y="105.5" />
+    </edge>
+    <edge source="Zad6.Combination" target="Zad6.FirstInterface" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="Zad6.Combination" target="Zad6.ThirdInterace" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="266.5" y="103.0" />
+      <point x="442.0" y="103.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="Zad6.Combination" target="Zad6.SecondInterface" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="266.5" y="103.0" />
+      <point x="85.0" y="103.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="Zad6.Test" target="Zad6.B" relationship="GENERALIZATION">
+      <point x="0.0" y="-83.5" />
+      <point x="0.0" y="39.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.41060419235511714" showDependencies="false" x="260.5" y="395.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
